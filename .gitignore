@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+traffic_ml_env/
+
+# Environment
+.env
+*.env
+
+# Local data and logs
+logs/*.log
+logs/*.txt
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db

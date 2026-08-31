@@ -1,0 +1,10 @@
+requests>=2.32.0
+pandas>=2.2.0
+SQLAlchemy>=2.0.0
+pyodbc>=5.2.0
+python-dotenv>=1.0.1
+scikit-learn>=1.4.0
+python-dateutil>=2.9.0
+joblib>=1.4.0
+numpy>=1.26.0
+# xgboost>=2.0.0  # Optional: uncomment for XGBoost model support (large download ~50 MB)

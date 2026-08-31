@@ -1,0 +1,31 @@
+{
+  "model_version": "v20260831",
+  "trained_at_utc": "2026-08-31T20:00:10.314490+00:00",
+  "train_rows": 40,
+  "test_rows": 10,
+  "mae_minutes": 0.0,
+  "r2": 1.0,
+  "features": [
+    "route_id",
+    "route_category",
+    "hour_num",
+    "weekend_flag",
+    "time_of_day_category",
+    "day_name",
+    "month_num",
+    "weather_category",
+    "temperature",
+    "humidity",
+    "wind_speed",
+    "cloud_coverage"
+  ],
+  "categorical": [
+    "route_id",
+    "route_category",
+    "time_of_day_category",
+    "day_name",
+    "weather_category"
+  ],
+  "target": "travel_time_minutes",
+  "min_rows_required": 20
+}
