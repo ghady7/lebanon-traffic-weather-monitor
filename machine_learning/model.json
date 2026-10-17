@@ -1,6 +1,6 @@
 {
   "model_version": "v20260831",
-  "trained_at_utc": "2026-08-31T20:00:10.314490+00:00",
+  "trained_at_utc": "2026-08-31T21:13:40.986874+00:00",
   "train_rows": 40,
   "test_rows": 10,
   "mae_minutes": 0.0,
@@ -27,5 +27,5 @@
     "weather_category"
   ],
   "target": "travel_time_minutes",
-  "min_rows_required": 20
+  "min_rows_required": 50
 }
